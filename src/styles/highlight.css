@@ -1,0 +1,86 @@
+[data-status="0"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status0);
+  --lute-color-text-status: var(--lute-text-color-status0);
+}
+
+[data-status="1"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status1);
+  --lute-color-text-status: var(--lute-text-color-status1);
+}
+
+[data-status="2"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status2);
+  --lute-color-text-status: var(--lute-text-color-status2);
+}
+
+[data-status="3"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status3);
+  --lute-color-text-status: var(--lute-text-color-status3);
+}
+
+[data-status="4"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status4);
+  --lute-color-text-status: var(--lute-text-color-status4);
+}
+
+[data-status="5"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status5);
+  --lute-color-text-status: var(--lute-text-color-status5);
+}
+
+[data-status="98"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status98);
+  --lute-color-text-status: var(--lute-text-color-status98);
+}
+
+[data-status="99"] {
+  --lute-color-highlight-status: var(--lute-color-highlight-status99);
+  --lute-color-text-status: var(--lute-text-color-status99);
+}
+
+[data-show-highlights="true"]:not(.term-active) [data-highlight-type="bg"],
+[data-highlight-type="bg"].hovered {
+  background-color: var(--lute-color-highlight-status);
+  color: var(--lute-color-text-status);
+}
+
+[data-show-highlights="true"]:not(.term-active) [data-highlight-type="text"],
+[data-highlight-type="text"].hovered {
+  color: var(--lute-color-highlight-status);
+  background-color: transparent;
+}
+
+[data-show-highlights="true"]:not(.term-active) [data-highlight-type="dashed"],
+[data-highlight-type="dashed"].hovered {
+  text-decoration: 2px underline dashed var(--lute-color-highlight-status);
+  text-underline-offset: 2px;
+  background-color: transparent;
+}
+
+[data-show-highlights="true"]:not(.term-active) [data-highlight-type="solid"],
+[data-highlight-type="solid"].hovered {
+  text-decoration: 2px underline solid var(--lute-color-highlight-status);
+  text-underline-offset: 2px;
+  background-color: transparent;
+}
+
+.textitem.hovered {
+  text-decoration: underline 2px solid var(--lute-color-highlight-hovered);
+  text-underline-offset: 2px;
+}
+
+.textitem.marked {
+  text-decoration: underline 2px solid var(--lute-color-highlight-marked);
+  text-underline-offset: 2px;
+}
+/* data property for equal specificity with above styles */
+.textitem.selected[data-order] {
+  background: var(--lute-color-highlight-selected);
+  color: var(--lute-text-color-selected);
+  text-decoration: none;
+}
+
+.textitem.flash-highlight {
+  background-color: var(--lute-color-highlight-flash);
+  color: var(--lute-text-color-flash);
+}

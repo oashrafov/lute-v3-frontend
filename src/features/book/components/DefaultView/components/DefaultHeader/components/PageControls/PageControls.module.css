@@ -1,0 +1,11 @@
+.titleFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: nowrap;
+  min-width: 0;
+
+  font-size: 0.85rem;
+  flex: 1;
+}

@@ -1,0 +1,46 @@
+.link {
+  display: block;
+  line-height: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  text-wrap: nowrap;
+  color: var(--mantine-color-gray-7);
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+}
+
+.link:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.linkLabel {
+  margin-right: 0.4rem;
+}
+
+.link[aria-current="page"],
+.link:has(+ div > a[aria-current="page"]) {
+  background-color: var(--mantine-color-blue-5);
+  color: white;
+}
+
+.backup {
+  padding-inline: 0.6rem;
+  padding-block: 0.3rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+[data-mantine-color-scheme="dark"]
+  .link:not([aria-current="page"]):not(:has(+ div > a[aria-current="page"])) {
+  color: var(--mantine-color-dark-0);
+}
+
+[data-mantine-color-scheme="dark"]
+  .link:not([aria-current="page"]):not(
+    :has(+ div > a[aria-current="page"])
+  ):hover {
+  background-color: var(--mantine-color-dark-6);
+}

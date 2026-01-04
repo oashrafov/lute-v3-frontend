@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: nowrap;
+}
+
+.mark {
+  background-color: var(--mantine-color-red-5);
+}
+
+.timeSlider {
+  flex: 1;
+}
+
+.volumeSlider {
+  flex: 0.12;
+}
+
+.thumb {
+  border-width: 2px;
+}
+
+.bookmarkControls {
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}

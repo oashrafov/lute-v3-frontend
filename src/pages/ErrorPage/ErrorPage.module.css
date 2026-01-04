@@ -1,0 +1,49 @@
+.root {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.inner {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  inset: 0;
+  opacity: 0.75;
+  color: var(--mantine-color-gray-0);
+}
+
+[data-mantine-color-scheme="dark"] .image {
+  color: var(--mantine-color-dark-6);
+}
+
+.content {
+  padding-top: 220px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 38px;
+}
+
+.description {
+  max-width: 540px;
+  margin: auto;
+  margin-top: var(--mantine-spacing-xl);
+  margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: var(--mantine-breakpoint-sm)) {
+  .content {
+    padding-top: 120px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}

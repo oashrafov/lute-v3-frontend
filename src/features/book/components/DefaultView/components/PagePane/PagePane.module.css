@@ -1,0 +1,7 @@
+.paneLeft {
+  width: 100%;
+  overflow: hidden; /*to hide header shadow*/
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

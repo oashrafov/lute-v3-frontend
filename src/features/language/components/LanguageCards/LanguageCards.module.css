@@ -1,0 +1,18 @@
+.card {
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem 0.7rem 0.5rem 0.5rem;
+  width: min-content;
+
+  &[data-checked] {
+    border-color: var(--mantine-primary-color-filled);
+  }
+
+  &:hover {
+    background-color: var(--mantine-color-gray-0);
+  }
+}
+
+[data-mantine-color-scheme="dark"] .card:hover {
+  background-color: var(--mantine-color-dark-6);
+}

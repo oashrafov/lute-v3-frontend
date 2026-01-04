@@ -1,0 +1,11 @@
+.bookLink {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.2rem;
+  color: var(--mantine-color-blue-6);
+}
+
+.bookLink:link {
+  color: var(--mantine-color-blue-6);
+}

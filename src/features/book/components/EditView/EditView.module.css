@@ -1,0 +1,5 @@
+.textarea {
+  margin: 1.8rem auto;
+  width: 50%;
+  resize: vertical;
+}

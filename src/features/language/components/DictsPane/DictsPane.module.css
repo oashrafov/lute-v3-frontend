@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+
+.tabList {
+  flex-wrap: nowrap;
+}

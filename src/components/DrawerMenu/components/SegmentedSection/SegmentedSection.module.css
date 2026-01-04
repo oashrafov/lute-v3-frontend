@@ -1,0 +1,7 @@
+.scroll {
+  flex: 1;
+}
+
+.scroll > :global(.mantine-ScrollArea-viewport > div) {
+  display: initial !important;
+}

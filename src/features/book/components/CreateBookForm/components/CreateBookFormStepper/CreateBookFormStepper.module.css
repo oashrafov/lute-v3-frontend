@@ -1,0 +1,12 @@
+.label:not([data-completed="true"] *):not([data-progress="true"] *) {
+  color: var(--mantine-color-gray-5);
+}
+
+.icon:not([data-completed="true"] *):not([data-progress="true"] *) {
+  color: var(--mantine-color-gray-5);
+}
+
+.icon[data-completed="true"] {
+  border-color: var(--mantine-color-green-6);
+  background-color: var(--mantine-color-green-6);
+}

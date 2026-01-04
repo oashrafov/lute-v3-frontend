@@ -1,0 +1,69 @@
+.drawer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.footer {
+  padding: 1rem;
+}
+
+.nav {
+  padding-top: 3rem;
+  padding-bottom: var(--mantine-spacing-xl);
+}
+
+.control {
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  color: var(--mantine-color-text);
+  font-size: var(--mantine-font-size-sm);
+}
+
+.control:hover {
+  background-color: var(--mantine-color-gray-0);
+  color: var(--mantine-color-black);
+}
+
+.link {
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  padding: 0.4rem var(--mantine-spacing-md);
+  padding-left: var(--mantine-spacing-md);
+  margin-left: var(--mantine-spacing-xl);
+  font-size: var(--mantine-font-size-sm);
+  color: var(--mantine-color-gray-7);
+  border-left: 1px solid var(--mantine-color-gray-3);
+  /* for button to take full width */
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+
+.link:hover {
+  background-color: var(--mantine-color-gray-0);
+  color: var(--mantine-color-black);
+}
+
+[data-mantine-color-scheme="dark"] .link {
+  color: var(--mantine-color-dark-0);
+  border-left: 1px solid var(--mantine-color-dark-4);
+}
+
+[data-mantine-color-scheme="dark"] .link:hover {
+  background-color: var(--mantine-color-dark-8);
+  color: var(--mantine-color-gray-2);
+}
+
+[data-mantine-color-scheme="dark"] .control:hover {
+  background-color: var(--mantine-color-dark-8);
+  color: var(--mantine-color-gray-2);
+}
+
+.chevron {
+  transition: transform 200ms ease;
+}

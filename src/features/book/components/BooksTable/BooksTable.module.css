@@ -1,0 +1,31 @@
+.button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.menu {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+  border-left: 1px solid var(--mantine-color-body);
+}
+
+:root[data-mantine-color-scheme="light"] {
+  --mrt-pinned-row-background-color: var(--mantine-color-green-0);
+}
+
+:root[data-mantine-color-scheme="dark"] {
+  --mrt-pinned-row-background-color: #233329;
+}
+
+:global(.mantine-ActionIcon-root[aria-label="Pin"]) {
+  display: block;
+}
+
+:global(.MRT_TableBody-module_pinned__XHpcs) {
+  background-color: var(--table-border-color);
+}
+
+:global(.MRT_TableBodyRow-module_root__2c3D4[data-row-pinned]) {
+  background-color: unset;
+}

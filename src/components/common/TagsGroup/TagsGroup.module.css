@@ -1,0 +1,7 @@
+.pill {
+  border: 1px solid var(--mantine-color-gray-4);
+}
+
+[data-mantine-color-scheme="dark"] .pill {
+  border: 1px solid var(--mantine-color-dark-4);
+}

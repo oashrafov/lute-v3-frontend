@@ -1,0 +1,76 @@
+{
+  "newBook": {
+    "titleLabel": "Title",
+    "contentLabel": "Content",
+    "textLabel": "Text",
+    "textDescription": "Use for short texts, e.g. up to a few thousand words. For longer texts, you can import content from a file.",
+    "textFileLabel": "Import from file",
+    "importfromURLLabel": "Import from URL",
+    "importLabel": "Import",
+    "splitLabel": "Split by",
+    "paragraphsOption": "Paragraphs",
+    "sentencesOption": "Sentences",
+    "wordCountLabel": "Words per page",
+    "audioFileLabel": "Audio file",
+    "sourceURLLabel": "Source URL",
+    "tagsLabel": "Tags",
+    "step1Label": "Pick language",
+    "step2Label": "Add Content",
+    "step3Label": "Configure settings",
+    "nextStepButtonLabel": "Next",
+    "backButtonLabel": "Back",
+    "reviewButtonLabel": "Review",
+    "languageNameLabel": "Language",
+
+    "error": {
+      "languageRequired": "A language must be selected",
+      "titleTooShort": "Title must be at least 1 character long",
+      "titleTooLong": "Title cannot be longer than 255 characters",
+      "textTooShort": "Text content must be at least 1 character long",
+      "invalidTextFile": "Valid file formats are: txt, epub, pdf, srt, vtt",
+      "invalidAudioFile": "Valid file formats are: mp3, m4a, wav, ogg, opus, aac, flac, webm",
+      "wordsPerPageTooLow": "There has to be at least 1 word per page",
+      "wordsPerPageTooHigh": "Can't add more than 1500 words per page",
+      "invalidSourceURL": "Invalid URL format",
+      "sourceURLTooLong": "URL length cannot be more than 1000 characters"
+    }
+  },
+  "language": {
+    "dictionariesLabel": "Dictionaries",
+    "pronunciationLabel": "Show pronunciation field",
+    "textDirectionLabel": "Text direction",
+    "parseLabel": "Parse as",
+    "charSubsLabel": "Character substitutions",
+    "splitLabel": "Split sentences at",
+    "splitDescription": "default: all Unicode sentence terminators",
+    "splitExceptionsLabel": "Exceptions",
+    "wordCharsLabel": "Word characters",
+    "wordCharsDescription": "default: all Unicode letters and marks"
+  },
+  "settings": {
+    "backupLabel": "Backup",
+    "backupEnabledLabel": "Enabled",
+    "backupDirLabel": "Directory",
+    "backupAutoLabel": "Run automatically (daily)",
+    "backupWarnLabel": "Warn if backup hasn't run in a week",
+    "backupCountLabel": "Retain backup count",
+
+    "behaviourLabel": "Behaviour",
+    "openInNewTabLabel": "Open translation popup in new tab",
+    "stopAudioLabel": "Stop audio on term form open",
+    "focusActiveSentenceLabel": "Focus active sentence",
+    "statsSampleSizeLabel": "Book stats page sample size",
+
+    "popupsLabel": "Term popups",
+    "promoteParentLabel": "Promote parent translation if possible",
+    "showComponentTermsLabel": "Show component terms",
+
+    "japaneseLabel": "Japanese",
+    "mecabPathLabel": "MECAB_PATH environment variable",
+    "testMecabConfigLabel": "Test my MeCab configuration",
+    "pronunciationCharsLabel": "Pronunciation characters",
+    "katakana": "Katakana",
+    "hiragana": "Hiragana",
+    "romaji": "Romaji"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "newBook": {
+    "title": "Create a new book",
+    "languageCardsLabel": "Language",
+    "languageCardsDescription": "Choose language for your book or create new",
+    "createLanguageModalTitle": "Create a new language"
+  },
+  "languages": {
+    "title": "Create or edit a language",
+    "languageCardsLabel": "My languages",
+    "languageCardsDescription": "Edit existing language",
+    "deleteLangLabel": "Delete selected language"
+  },
+  "newEditTerm": {
+    "titleCreate": "Create new term",
+    "titleEdit": "Edit term",
+    "languageCardsLabel": "My languages",
+    "languageCardsDescription": "Pick a language to add the new term",
+    "termFormPlaceholderLabel": "Select a language to show the term form",
+    "dictTabsPlaceholderLabel": "Type term text and click the lookup button to load dictionaries"
+  },
+  "settings": {
+    "title": "General settings"
+  }
+}

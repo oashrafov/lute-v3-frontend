@@ -1,0 +1,10 @@
+.sentence {
+  font-weight: 500;
+  /* text-decoration: underline 2px solid var(--mantine-color-blue-6);
+  text-underline-offset: 2px; */
+  background-color: #ffe066;
+}
+
+.textitem {
+  font-size: 1rem;
+}

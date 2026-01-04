@@ -1,0 +1,8 @@
+.toolbar {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
+  gap: 5px;
+}

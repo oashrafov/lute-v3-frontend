@@ -1,0 +1,53 @@
+[data-scheme="light"][data-theme="lute"] {
+  --lute-color-highlight-status0: #d5ffff;
+  --lute-color-highlight-status1: #f5b8a9;
+  --lute-color-highlight-status2: #f5cca9;
+  --lute-color-highlight-status3: #f5e1a9;
+  --lute-color-highlight-status4: #f5f3a9;
+  --lute-color-highlight-status5: #ddffdd;
+  --lute-color-highlight-status98: #ee8577;
+  --lute-color-highlight-status99: #72da88;
+
+  --lute-color-highlight-marked: #f56767;
+  --lute-color-highlight-hovered: #228be6;
+  --lute-color-highlight-selected: #ffe066;
+  --lute-color-highlight-flash: #ff6868;
+
+  --lute-color-read: var(--mantine-color-body);
+}
+
+[data-scheme="dark"][data-theme="night"] {
+  --lute-color-highlight-status0: #59c7fa;
+  --lute-color-highlight-status1: #7a3d58;
+  --lute-color-highlight-status2: #82621a;
+  --lute-color-highlight-status3: #3c6621;
+  --lute-color-highlight-status4: #325192;
+  --lute-color-highlight-status5: #5e4583;
+  --lute-color-highlight-status98: #bc6b60;
+  --lute-color-highlight-status99: #38924c;
+
+  --lute-color-highlight-marked: #ff0000;
+  --lute-color-highlight-hovered: #0000ff;
+  --lute-color-highlight-selected: #ffe066;
+  --lute-color-highlight-flash: #ff6868;
+
+  --lute-color-read: var(--mantine-color-body);
+}
+
+[data-scheme="light"][data-theme="linq"] {
+  --lute-color-highlight-status0: #c6dfff;
+  --lute-color-highlight-status1: #ffe895;
+  --lute-color-highlight-status2: #fff2c5;
+  --lute-color-highlight-status3: #fff7db;
+  --lute-color-highlight-status4: #acb2b9;
+  --lute-color-highlight-status5: #acb2b9;
+  --lute-color-highlight-status98: #ee8577;
+  --lute-color-highlight-status99: #72da88;
+
+  --lute-color-highlight-marked: #f56767;
+  --lute-color-highlight-hovered: #228be6;
+  --lute-color-highlight-selected: #ffe066;
+  --lute-color-highlight-flash: #ff6868;
+
+  --lute-color-read: var(--mantine-color-body);
+}

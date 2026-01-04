@@ -1,0 +1,5 @@
+.bar {
+  gap: 1px;
+  background-color: var(--mantine-color-dimmed);
+  border: 1px solid var(--mantine-color-dimmed);
+}

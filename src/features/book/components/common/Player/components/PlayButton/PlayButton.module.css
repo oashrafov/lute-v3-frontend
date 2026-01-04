@@ -1,0 +1,10 @@
+.btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  z-index: 2;
+  border-radius: 50%;
+  border: 3px solid var(--lute-color-read);
+  padding: 0.3125rem;
+}

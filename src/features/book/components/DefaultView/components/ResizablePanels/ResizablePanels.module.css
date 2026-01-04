@@ -1,0 +1,12 @@
+.resizeHandle {
+  flex: 0 0 2px;
+  position: relative;
+  outline: none;
+
+  background-color: #e3e3e3;
+  transition: background-color 0.1s;
+}
+
+.resizeHandle[data-resize-handle-active] {
+  background-color: var(--mantine-color-blue-filled);
+}

@@ -1,0 +1,19 @@
+.fieldBox {
+  display: flex;
+  gap: 0.3125rem;
+  flex-wrap: nowrap;
+  margin-bottom: 0.3125rem;
+}
+
+.translationBox {
+  align-items: flex-start;
+}
+
+.termBox {
+  align-items: center;
+}
+
+.leftSection {
+  align-items: flex-start;
+  top: 7px;
+}

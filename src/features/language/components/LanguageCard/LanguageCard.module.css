@@ -1,0 +1,7 @@
+.label {
+  color: var(--mantine-color-text);
+}
+
+.stat {
+  color: var(--mantine-color-dimmed);
+}

@@ -1,0 +1,8 @@
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mantine-color-red-6);
+  background-color: #ffffffaa;
+  font-size: 0.85rem;
+}

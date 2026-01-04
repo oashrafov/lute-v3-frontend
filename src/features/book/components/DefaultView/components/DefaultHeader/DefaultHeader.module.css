@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  padding: 1rem 2rem;
+  overflow: hidden;
+
+  height: 5rem;
+  position: relative;
+  z-index: 2;
+  border-radius: 0;
+  border-inline: none;
+}
+
+.playerContainer {
+  position: relative;
+  z-index: 2;
+  border-radius: 0;
+  border: 0.0625rem solid var(--paper-border-color);
+  border-inline: none;
+  border-top: none;
+  padding: 0.5rem 2rem;
+  background-color: var(--lute-color-read);
+  box-shadow: var(--mantine-shadow-sm);
+}
