@@ -64,7 +64,6 @@ export function BookExtraOptions() {
       <TextInput
         name="source"
         control={control}
-        placeholder="http://"
         label={t("sourceURLLabel")}
         leftSection={<IconLink />}
         error={errors.source?.message}

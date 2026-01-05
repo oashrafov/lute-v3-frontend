@@ -29,7 +29,7 @@ const BookSchema = z.object({
     .string()
     .min(1, "Title must be at least 1 character long")
     .max(255, "Title cannot be longer than 255 characters"),
-  source: z.url().max(1000).nullable(),
+  source: z.string().max(1000).nullable(),
   tags: z.array(z.string()),
   audio: AudioSchema.nullable(),
   audioName: AudioSchema.shape.name.nullable(),
@@ -131,7 +131,7 @@ export const CreateBookFormDefaultsSchema = z.object({
   source: z.string(),
   languageId: z.null(),
   tags: z.array(z.string()),
-  wordsPerPage: z.int(),
+  wordsPerPage: z.int().positive(),
   splitBy: z.enum(["paragraphs", "sentences"]),
   textFile: z.null(),
   audioFile: z.null(),
