@@ -9,7 +9,7 @@ import { globalIgnores } from "eslint/config";
 import prettier from "eslint-config-prettier/flat";
 
 export default tseslint.config([
-  globalIgnores(["dist"]),
+  globalIgnores(["dist", "src/routeTree.gen.ts"]),
   {
     files: ["**/*.{ts,tsx}"],
     extends: [
