@@ -1,5 +1,8 @@
 node_modules
 dist
-Dockerfile
-.dockerignore
 .tanstack
+.git
+.dockerignore
+.vscode
+docker/*.sh
+docker/Dockerfile
