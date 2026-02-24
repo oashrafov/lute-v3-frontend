@@ -1,7 +1,8 @@
+import env from "#utils/env";
 import type { HighlightType, Status } from "./types";
 
-export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-export const API_BASE_URL = import.meta.env.VITE_API_URL;
+export const BACKEND_URL = env.VITE_BACKEND_URL;
+export const API_BASE_URL = `${BACKEND_URL}/api`;
 export const DOCS_URL = "https://luteorg.github.io/lute-manual/";
 export const DISCORD_URL = "https://discord.gg/CzFUQP5m8u";
 export const DOWNLOAD_BACKUP_URL = `${BACKEND_URL}/backup/download/`;
